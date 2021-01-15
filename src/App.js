@@ -1,26 +1,22 @@
 import logo from './logo.svg';
+import {Header} from './components/Header'
 import './App.css';
-import {  } from "module";
+import { Balance } from "./components/Balance";
+import {IncomeExpenses} from "./components/IncomeExpenses";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <button> Hello World!!</button>
-        
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+     <Header/>
+     <div  className='container'>
 
-        >
-        
-        </a>
-      </header>
+       <Balance/>
+
+     </div>
+     <div>
+       <IncomeExpenses/>
+     </div>
     </div>
   );
 }
