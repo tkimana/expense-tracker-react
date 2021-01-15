@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home'
+
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <button onClick={Home}> Hello World!!</button>
+          <button > Hello World</button>
         
         </p>
         <a
@@ -16,7 +16,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-          
+
         >
         
         </a>
